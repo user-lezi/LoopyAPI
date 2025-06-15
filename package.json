@@ -1,0 +1,31 @@
+{
+  "name": "loopy-api.ts",
+  "version": "1.0.0",
+  "description": "An Unofficial Wrapper for LoopyAPI written in Typescript",
+  "keywords": [
+    "loopyapi"
+  ],
+  "homepage": "https://github.com/user-lezi/LoopyAPI#readme",
+  "bugs": {
+    "url": "https://github.com/user-lezi/LoopyAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/user-lezi/LoopyAPI.git"
+  },
+  "license": "MIT",
+  "author": "lezii",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "prettier src --write && tsc",
+    "test": "node dist/__test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "dotenv": "^16.5.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}
